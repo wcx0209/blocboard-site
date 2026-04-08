@@ -723,6 +723,8 @@ body::before {
   border: 1px solid rgba(16, 35, 62, 0.08);
   box-shadow: 0 12px 28px rgba(16, 35, 62, 0.1);
   background: white;
+  object-fit: cover;
+  object-position: center;
 }
 
 .story-persona-meta {
@@ -827,6 +829,8 @@ body::before {
   border-radius: 14px;
   border: 1px solid rgba(16, 35, 62, 0.08);
   background: white;
+  object-fit: cover;
+  object-position: center;
 }
 
 .story-outcome-list h4 {
