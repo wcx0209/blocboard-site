@@ -732,6 +732,7 @@
 
         const statusEl = form.querySelector("[data-form-status]");
         const copyButton = form.querySelector("[data-copy-request]");
+        const inquiryEmail = "wcx0209@hotmail.com";
 
         function buildMessage() {
           const data = new FormData(form);
@@ -767,9 +768,9 @@
           event.preventDefault();
           const message = buildMessage();
           window.location.href =
-            `mailto:?subject=${encodeURIComponent(message.subject)}&body=${encodeURIComponent(message.body)}`;
+            `mailto:${encodeURIComponent(inquiryEmail)}?subject=${encodeURIComponent(message.subject)}&body=${encodeURIComponent(message.body)}`;
           if (statusEl) {
-            statusEl.textContent = "Email draft opened. Connect this form to your CRM before launch.";
+            statusEl.textContent = `Email draft opened for ${inquiryEmail}.`;
           }
         });
 
