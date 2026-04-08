@@ -1,15 +1,42 @@
 <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect x="12" y="12" width="176" height="176" rx="44" fill="#ECFFF7"/>
-  <rect x="24" y="24" width="152" height="152" rx="38" fill="#CFF5E6"/>
-  <rect x="42" y="116" width="116" height="44" rx="22" fill="#00B876"/>
-  <rect x="60" y="90" width="80" height="38" rx="19" fill="#10233E"/>
-  <ellipse cx="100" cy="84" rx="28" ry="31" fill="#E8B089"/>
-  <path d="M68 80C68 56 80 44 101 44C122 44 132 56 132 82V92H68V80Z" fill="#10233E"/>
-  <path d="M60 68C64 46 78 38 100 38C122 38 136 50 140 72C126 66 111 64 100 64C87 64 73 66 60 68Z" fill="#10233E"/>
-  <rect x="74" y="78" width="10" height="10" rx="5" fill="#10233E"/>
-  <rect x="116" y="78" width="10" height="10" rx="5" fill="#10233E"/>
-  <rect x="92" y="92" width="16" height="7" rx="3.5" fill="#D88771"/>
-  <rect x="132" y="34" width="34" height="34" rx="13" fill="#F8FBFF"/>
-  <path d="M149 42L156 49L149 56L142 49L149 42Z" fill="#00B876"/>
-  <rect x="72" y="124" width="56" height="8" rx="4" fill="#F8FBFF" fill-opacity="0.88"/>
+  <defs>
+    <linearGradient id="priya-bg" x1="26" y1="18" x2="172" y2="178" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEFFF8"/>
+      <stop offset="1" stop-color="#CFF4E3"/>
+    </linearGradient>
+    <linearGradient id="priya-jacket" x1="58" y1="118" x2="141" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00B876"/>
+      <stop offset="1" stop-color="#009E66"/>
+    </linearGradient>
+    <linearGradient id="priya-shirt" x1="80" y1="115" x2="122" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#20314C"/>
+      <stop offset="1" stop-color="#10233E"/>
+    </linearGradient>
+    <radialGradient id="priya-skin" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(100 81) rotate(90) scale(40 34)">
+      <stop stop-color="#E8B694"/>
+      <stop offset="1" stop-color="#BF845E"/>
+    </radialGradient>
+  </defs>
+  <rect x="12" y="12" width="176" height="176" rx="44" fill="url(#priya-bg)"/>
+  <rect x="24" y="24" width="152" height="152" rx="38" fill="#FFFFFF" fill-opacity="0.28"/>
+  <circle cx="100" cy="82" r="56" fill="#FFFFFF" fill-opacity="0.22"/>
+  <path d="M46 168C54 134 73 117 100 117C128 117 146 134 154 168H46Z" fill="url(#priya-jacket)"/>
+  <path d="M77 116C83 110 91 108 100 108C110 108 118 110 124 116L128 168H72L77 116Z" fill="url(#priya-shirt)"/>
+  <path d="M84 116H116L107 132H93L84 116Z" fill="#F8FBFF" fill-opacity="0.9"/>
+  <rect x="92" y="104" width="16" height="22" rx="8" fill="#C68A65"/>
+  <ellipse cx="100" cy="80" rx="31" ry="38" fill="url(#priya-skin)"/>
+  <path d="M65 82C65 54 79 37 100 37C124 37 136 54 136 84V93H65V82Z" fill="#10233E"/>
+  <path d="M61 72C64 48 80 34 100 34C123 34 138 50 140 73C130 67 115 64 100 64C84 64 71 67 61 72Z" fill="#162B47"/>
+  <path d="M72 47C79 38 89 34 100 34C113 34 124 39 131 49C121 56 111 60 100 60C89 60 80 57 72 47Z" fill="#233652"/>
+  <path d="M74 96C73 110 78 122 86 127L77 135C66 125 61 111 62 96H74Z" fill="#10233E"/>
+  <path d="M126 96C127 110 122 122 114 127L123 135C134 125 139 111 138 96H126Z" fill="#10233E"/>
+  <ellipse cx="88" cy="81" rx="3.5" ry="4.5" fill="#10233E"/>
+  <ellipse cx="113" cy="81" rx="3.5" ry="4.5" fill="#10233E"/>
+  <path d="M99 84C100 90 99 95 96 98" stroke="#A66C56" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M90 103C95 106 106 106 110 101" stroke="#9F5F56" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="72" cy="92" r="4" fill="#C97B67" fill-opacity="0.7"/>
+  <circle cx="129" cy="92" r="4" fill="#C97B67" fill-opacity="0.7"/>
+  <rect x="132" y="34" width="34" height="34" rx="13" fill="#FFFFFF" fill-opacity="0.96"/>
+  <path d="M149 41L157 49L149 57L141 49L149 41Z" fill="#00B876"/>
+  <path d="M149 46L152 49L149 52L146 49L149 46Z" fill="#F8FBFF"/>
 </svg>

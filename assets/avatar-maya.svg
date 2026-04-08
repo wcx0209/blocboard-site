@@ -1,16 +1,42 @@
 <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect x="12" y="12" width="176" height="176" rx="44" fill="#EEF4FF"/>
-  <rect x="24" y="24" width="152" height="152" rx="38" fill="#DCE9FF"/>
-  <rect x="42" y="116" width="116" height="44" rx="22" fill="#1456F0"/>
-  <rect x="58" y="90" width="84" height="38" rx="19" fill="#FF3152"/>
-  <ellipse cx="100" cy="84" rx="28" ry="31" fill="#FFD3B0"/>
-  <path d="M68 82C68 58 80 46 101 46C122 46 132 60 132 80V92H68V82Z" fill="#10233E"/>
-  <rect x="58" y="40" width="30" height="22" rx="11" fill="#10233E"/>
-  <rect x="116" y="44" width="16" height="16" rx="6" fill="#1DA7FF"/>
-  <rect x="74" y="78" width="10" height="10" rx="5" fill="#10233E"/>
-  <rect x="116" y="78" width="10" height="10" rx="5" fill="#10233E"/>
-  <rect x="92" y="92" width="16" height="7" rx="3.5" fill="#E58C7B"/>
-  <rect x="128" y="28" width="36" height="36" rx="14" fill="#F8FBFF"/>
-  <rect x="138" y="38" width="16" height="16" rx="6" fill="#1456F0"/>
-  <rect x="72" y="124" width="56" height="8" rx="4" fill="#F8FBFF" fill-opacity="0.88"/>
+  <defs>
+    <linearGradient id="maya-bg" x1="26" y1="18" x2="172" y2="178" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2F7FF"/>
+      <stop offset="1" stop-color="#D8E8FF"/>
+    </linearGradient>
+    <linearGradient id="maya-jacket" x1="62" y1="120" x2="136" y2="168" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#245EF7"/>
+      <stop offset="1" stop-color="#0D44CB"/>
+    </linearGradient>
+    <linearGradient id="maya-shirt" x1="80" y1="114" x2="124" y2="142" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6C87"/>
+      <stop offset="1" stop-color="#FF3152"/>
+    </linearGradient>
+    <radialGradient id="maya-skin" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(102 82) rotate(90) scale(40 34)">
+      <stop stop-color="#FFD8BC"/>
+      <stop offset="1" stop-color="#E5AF90"/>
+    </radialGradient>
+  </defs>
+  <rect x="12" y="12" width="176" height="176" rx="44" fill="url(#maya-bg)"/>
+  <rect x="24" y="24" width="152" height="152" rx="38" fill="#FFFFFF" fill-opacity="0.32"/>
+  <circle cx="100" cy="82" r="56" fill="#FFFFFF" fill-opacity="0.28"/>
+  <path d="M48 168C55 133 73 117 100 117C127 117 145 133 152 168H48Z" fill="url(#maya-jacket)"/>
+  <path d="M78 118C83 112 90 109 100 109C110 109 118 112 123 118L129 168H71L78 118Z" fill="url(#maya-shirt)"/>
+  <path d="M84 118H116L107 133H93L84 118Z" fill="#F8FBFF" fill-opacity="0.92"/>
+  <rect x="92" y="104" width="16" height="22" rx="8" fill="#EDB495"/>
+  <ellipse cx="100" cy="80" rx="31" ry="38" fill="url(#maya-skin)"/>
+  <path d="M68 79C68 53 80 36 101 36C126 36 137 54 137 82V90H126L118 71L112 90H68V79Z" fill="#12284A"/>
+  <path d="M73 53C77 41 88 34 102 34C117 34 129 42 133 55C125 64 112 69 100 69C88 69 79 64 73 53Z" fill="#19365D"/>
+  <path d="M74 95C72 108 78 122 90 128L81 136C66 126 60 108 62 90L74 95Z" fill="#12284A"/>
+  <path d="M126 95C128 108 122 122 110 128L119 136C134 126 140 108 138 90L126 95Z" fill="#12284A"/>
+  <ellipse cx="88" cy="81" rx="3.5" ry="4.5" fill="#10233E"/>
+  <ellipse cx="113" cy="81" rx="3.5" ry="4.5" fill="#10233E"/>
+  <path d="M97 84C98 90 97 95 94 98" stroke="#C78572" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M90 102C94 106 106 106 111 101" stroke="#BE6E68" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="72" cy="92" r="4" fill="#E9A28E" fill-opacity="0.8"/>
+  <circle cx="129" cy="92" r="4" fill="#E9A28E" fill-opacity="0.8"/>
+  <rect x="132" y="28" width="34" height="34" rx="14" fill="#F8FBFF" fill-opacity="0.95"/>
+  <rect x="141" y="37" width="16" height="16" rx="6" fill="#1456F0"/>
+  <path d="M145 45H153" stroke="#F8FBFF" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M149 41V49" stroke="#F8FBFF" stroke-width="2.6" stroke-linecap="round"/>
 </svg>

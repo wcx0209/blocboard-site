@@ -1,16 +1,39 @@
 <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect x="12" y="12" width="176" height="176" rx="44" fill="#FFF1F4"/>
-  <rect x="24" y="24" width="152" height="152" rx="38" fill="#FFD9E0"/>
-  <rect x="42" y="116" width="116" height="44" rx="22" fill="#10233E"/>
-  <rect x="58" y="90" width="84" height="38" rx="19" fill="#1DA7FF"/>
-  <ellipse cx="100" cy="84" rx="28" ry="31" fill="#F0C2A0"/>
-  <path d="M68 82C68 54 82 44 100 44C118 44 132 54 132 82V92H68V82Z" fill="#10233E"/>
-  <path d="M74 52C80 44 90 40 100 40C111 40 121 44 127 52C121 60 113 64 100 64C88 64 79 60 74 52Z" fill="#344865"/>
-  <rect x="74" y="78" width="10" height="10" rx="5" fill="#10233E"/>
-  <rect x="116" y="78" width="10" height="10" rx="5" fill="#10233E"/>
-  <rect x="92" y="92" width="16" height="7" rx="3.5" fill="#D88771"/>
-  <rect x="34" y="128" width="36" height="14" rx="7" fill="#F8FBFF"/>
-  <rect x="132" y="34" width="34" height="34" rx="13" fill="#F8FBFF"/>
+  <defs>
+    <linearGradient id="ken-bg" x1="26" y1="18" x2="172" y2="178" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8F2FF"/>
+      <stop offset="1" stop-color="#E6DDFF"/>
+    </linearGradient>
+    <linearGradient id="ken-jacket" x1="58" y1="120" x2="140" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#122743"/>
+      <stop offset="1" stop-color="#091321"/>
+    </linearGradient>
+    <linearGradient id="ken-shirt" x1="80" y1="114" x2="122" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2FA4FF"/>
+      <stop offset="1" stop-color="#0E7BE1"/>
+    </linearGradient>
+    <radialGradient id="ken-skin" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(101 81) rotate(90) scale(40 34)">
+      <stop stop-color="#F0C3A4"/>
+      <stop offset="1" stop-color="#D49C7E"/>
+    </radialGradient>
+  </defs>
+  <rect x="12" y="12" width="176" height="176" rx="44" fill="url(#ken-bg)"/>
+  <rect x="24" y="24" width="152" height="152" rx="38" fill="#FFFFFF" fill-opacity="0.3"/>
+  <circle cx="100" cy="82" r="56" fill="#FFFFFF" fill-opacity="0.22"/>
+  <path d="M46 168C54 134 73 117 100 117C128 117 146 134 154 168H46Z" fill="url(#ken-jacket)"/>
+  <path d="M77 116C84 109 92 107 101 107C111 107 119 109 125 116L129 168H73L77 116Z" fill="url(#ken-shirt)"/>
+  <path d="M86 116H116L108 132H94L86 116Z" fill="#F8FBFF" fill-opacity="0.92"/>
+  <rect x="93" y="104" width="16" height="22" rx="8" fill="#D39B7D"/>
+  <ellipse cx="101" cy="80" rx="31" ry="38" fill="url(#ken-skin)"/>
+  <path d="M69 81C69 55 82 39 101 39C121 39 134 53 134 83V92H69V81Z" fill="#1B2940"/>
+  <path d="M71 56C80 43 91 38 103 38C117 38 127 43 133 56C123 63 114 67 102 67C90 67 80 64 71 56Z" fill="#344865"/>
+  <path d="M74 47C82 40 92 37 103 37C114 37 123 41 129 49C121 55 112 58 102 58C91 58 82 55 74 47Z" fill="#556680"/>
+  <ellipse cx="89" cy="81" rx="3.5" ry="4.5" fill="#10233E"/>
+  <ellipse cx="114" cy="81" rx="3.5" ry="4.5" fill="#10233E"/>
+  <path d="M101 84C101 90 100 95 98 98" stroke="#B77A60" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M92 103C96 106 107 106 111 101" stroke="#AB6A60" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="34" y="128" width="40" height="14" rx="7" fill="#F8FBFF" fill-opacity="0.9"/>
+  <rect x="132" y="34" width="34" height="34" rx="13" fill="#FFFFFF" fill-opacity="0.96"/>
   <rect x="142" y="44" width="14" height="14" rx="5" fill="#FF3152"/>
-  <rect x="72" y="124" width="56" height="8" rx="4" fill="#F8FBFF" fill-opacity="0.88"/>
+  <path d="M145 51H153" stroke="#F8FBFF" stroke-width="2.4" stroke-linecap="round"/>
 </svg>
