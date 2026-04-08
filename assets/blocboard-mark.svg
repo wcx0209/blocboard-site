@@ -1,0 +1,26 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blocboard-bg" x1="22" y1="18" x2="108" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D5EFF"/>
+      <stop offset="0.52" stop-color="#1456F0"/>
+      <stop offset="1" stop-color="#FF3152"/>
+    </linearGradient>
+    <filter id="blocboard-shadow" x="4" y="6" width="120" height="120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#10233E" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <g filter="url(#blocboard-shadow)">
+    <g transform="rotate(-10 64 64)">
+      <rect x="18" y="18" width="92" height="92" rx="24" fill="url(#blocboard-bg)"/>
+      <rect x="29" y="29" width="70" height="70" rx="18" fill="#10233E" fill-opacity="0.18"/>
+      <rect x="37" y="37" width="20" height="20" rx="6" fill="#FFC928"/>
+      <rect x="71" y="37" width="20" height="20" rx="6" fill="#00B876"/>
+      <rect x="37" y="71" width="20" height="20" rx="6" fill="#FF3152"/>
+      <rect x="52" y="52" width="24" height="24" rx="7" fill="#F8FBFF"/>
+      <rect x="78" y="78" width="8" height="8" rx="2.5" fill="#F8FBFF" fill-opacity="0.9"/>
+      <rect x="86" y="78" width="8" height="8" rx="2.5" fill="#F8FBFF" fill-opacity="0.58"/>
+      <rect x="78" y="86" width="8" height="8" rx="2.5" fill="#F8FBFF" fill-opacity="0.58"/>
+      <rect x="86" y="86" width="8" height="8" rx="2.5" fill="#F8FBFF" fill-opacity="0.9"/>
+    </g>
+  </g>
+</svg>

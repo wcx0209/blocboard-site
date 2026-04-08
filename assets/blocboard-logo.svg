@@ -1,0 +1,8 @@
+<svg width="560" height="150" viewBox="0 0 560 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <text x="6" y="88" fill="#10233E" font-family="'Montserrat', 'Trebuchet MS', 'Avenir Next', 'Segoe UI', sans-serif" font-size="76" font-weight="900" letter-spacing="-2">Bloc</text>
+  <text x="168" y="88" fill="#1456F0" font-family="'Montserrat', 'Trebuchet MS', 'Avenir Next', 'Segoe UI', sans-serif" font-size="76" font-weight="900" letter-spacing="-2">board</text>
+  <rect x="8" y="114" width="262" height="10" rx="5" fill="#10233E" fill-opacity="0.1"/>
+  <rect x="8" y="114" width="92" height="10" rx="5" fill="#FF3152"/>
+  <rect x="110" y="114" width="92" height="10" rx="5" fill="#FFC928"/>
+  <rect x="212" y="114" width="58" height="10" rx="5" fill="#00B876"/>
+</svg>

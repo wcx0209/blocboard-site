@@ -1,0 +1,59 @@
+<svg width="960" height="600" viewBox="0 0 960 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="600" rx="36" fill="url(#paint0_linear_2_14)"/>
+  <rect x="40" y="40" width="880" height="520" rx="30" fill="#FDFEFF" fill-opacity="0.76"/>
+
+  <g>
+    <path d="M186 326L340 250L500 324L344 402L186 326Z" fill="#D8E7FF"/>
+    <path d="M340 250V370L500 444V324L340 250Z" fill="#B8D2FF"/>
+    <path d="M186 326V446L344 520V402L186 326Z" fill="#A1C4FF"/>
+
+    <path d="M436 212L590 136L750 210L594 288L436 212Z" fill="#E5EEFF"/>
+    <path d="M590 136V256L750 330V210L590 136Z" fill="#C8DBFF"/>
+    <path d="M436 212V332L594 406V288L436 212Z" fill="#B0CBFF"/>
+  </g>
+
+  <g>
+    <rect x="270" y="300" width="68" height="68" rx="14" transform="rotate(-29 270 300)" fill="#0D5EFF"/>
+    <rect x="260" y="280" width="22" height="22" rx="5" transform="rotate(-29 260 280)" fill="#FF3152"/>
+    <rect x="302" y="274" width="22" height="22" rx="5" transform="rotate(-29 302 274)" fill="#FFC928"/>
+    <rect x="312" y="312" width="22" height="22" rx="5" transform="rotate(-29 312 312)" fill="#00B876"/>
+  </g>
+
+  <g>
+    <rect x="564" y="182" width="120" height="72" rx="16" fill="#10233E"/>
+    <rect x="580" y="198" width="88" height="14" rx="7" fill="#F2F7FF"/>
+    <rect x="580" y="222" width="52" height="18" rx="9" fill="#0D5EFF"/>
+    <rect x="640" y="222" width="28" height="18" rx="9" fill="#FF3152"/>
+  </g>
+
+  <g>
+    <rect x="220" y="404" width="98" height="64" rx="16" fill="#FFFFFF"/>
+    <rect x="236" y="420" width="24" height="24" rx="8" fill="#FFC928"/>
+    <rect x="270" y="420" width="34" height="10" rx="5" fill="#D6E5FF"/>
+    <rect x="270" y="436" width="24" height="10" rx="5" fill="#D6E5FF"/>
+  </g>
+
+  <g>
+    <rect x="612" y="348" width="124" height="82" rx="18" fill="#FFFFFF"/>
+    <rect x="628" y="366" width="36" height="48" rx="12" fill="#00B876"/>
+    <rect x="674" y="366" width="46" height="10" rx="5" fill="#D6E5FF"/>
+    <rect x="674" y="384" width="34" height="10" rx="5" fill="#D6E5FF"/>
+    <rect x="674" y="402" width="40" height="10" rx="5" fill="#D6E5FF"/>
+  </g>
+
+  <g opacity="0.94">
+    <path d="M374 202L420 180L466 202L420 226L374 202Z" fill="#FF3152"/>
+    <path d="M400 164L446 142L492 164L446 188L400 164Z" fill="#0D5EFF"/>
+    <path d="M682 462L718 444L754 462L718 482L682 462Z" fill="#FFC928"/>
+  </g>
+
+  <path d="M324 346C372 316 422 300 478 298C532 296 582 312 624 350" stroke="#10233E" stroke-width="10" stroke-linecap="round" stroke-dasharray="2 24"/>
+
+  <defs>
+    <linearGradient id="paint0_linear_2_14" x1="480" y1="0" x2="480" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E3EEFF"/>
+      <stop offset="1" stop-color="#F6FAFF"/>
+    </linearGradient>
+  </defs>
+</svg>
+

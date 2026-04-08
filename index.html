@@ -1,0 +1,794 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blocboard | AI LiveOps and Monetization Help for Roblox Studios</title>
+    <meta
+      name="description"
+      content="Blocboard helps Roblox studios turn weekly data into clearer pricing moves, live-ops changes, and player retention fixes."
+    />
+    <meta name="theme-color" content="#1456f0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="./assets/blocboard-mark.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#top">
+          <span class="brand-mark" aria-hidden="true">
+            <img src="./assets/blocboard-mark.svg" alt="" />
+          </span>
+          <span class="brand-copy">
+            <img class="brand-wordmark" src="./assets/blocboard-logo.svg" alt="Blocboard" />
+            <span>the weekly game plan for Roblox studios</span>
+          </span>
+        </a>
+        <nav class="topnav">
+          <a href="#story">Story</a>
+          <a href="#product">Product</a>
+          <a href="#difference">Why not Roblox tools?</a>
+          <a href="#workflow">How It Fits</a>
+          <a href="#outputs">Outputs</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#request-demo">Demo</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero">
+          <div class="hero-copy">
+            <div class="eyebrow">Built for the Thursday panic before a Friday ship</div>
+            <h1>Turn a messy Roblox week into your next revenue move.</h1>
+            <p class="hero-text">
+              Blocboard gives your team one weekly plan for what to fix, what to
+              price-test, what to rerun, and what is still stuck in review, so your
+              next update ships with more confidence and more upside.
+            </p>
+            <div class="genre-row" aria-label="Supported Roblox genres">
+              <span>Tycoons</span>
+              <span>Simulators</span>
+              <span>Obbies</span>
+              <span>Collection Events</span>
+              <span>UGC Drops</span>
+            </div>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#pricing">See plans</a>
+              <a class="button button-secondary" href="#difference">See why teams need this</a>
+            </div>
+            <ul class="hero-points">
+              <li>Spot what matters before the next ship, not after it misses.</li>
+              <li>Keep Roblox's tools. Add the weekly game plan they do not give you.</li>
+              <li>Keep approvals, tests, and learnings visible from one week to the next.</li>
+              <li>Start from the files your team already pulls every week.</li>
+            </ul>
+          </div>
+
+          <div class="hero-panel">
+            <div class="panel-window">
+              <div class="block-stack" aria-hidden="true">
+                <span class="block block-blue"></span>
+                <span class="block block-red"></span>
+                <span class="block block-yellow"></span>
+                <span class="block block-green"></span>
+              </div>
+              <div class="panel-topline">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+                <img class="window-mark" src="./assets/blocboard-mark.svg" alt="" />
+                <span class="window-title">friday-ship-review</span>
+              </div>
+              <div class="kpi-grid">
+                <div class="kpi-card">
+                  <span class="kpi-label">Robux Revenue</span>
+                  <strong>2.55M</strong>
+                  <span class="kpi-delta down">-14.0% WoW</span>
+                </div>
+                <div class="kpi-card">
+                  <span class="kpi-label">Players</span>
+                  <strong>127.9K</strong>
+                  <span class="kpi-delta up">+5.0% WoW</span>
+                </div>
+                <div class="kpi-card">
+                  <span class="kpi-label">D1 Retention</span>
+                  <strong>26.7%</strong>
+                  <span class="kpi-delta down">Needs repair</span>
+                </div>
+                <div class="kpi-card">
+                  <span class="kpi-label">Payer Conv.</span>
+                  <strong>2.1%</strong>
+                  <span class="kpi-delta down">Softening</span>
+                </div>
+              </div>
+              <div class="signal-stack">
+                <article class="signal-card priority-1">
+                  <span class="signal-tag">Priority 5</span>
+                  <h2>Your world is growing, but your monetization loop is slipping.</h2>
+                  <p>
+                    Make one focused money pass: refresh the starter offer, test two
+                    high-performing products upward, and move the first purchase prompt
+                    deeper into the first session.
+                  </p>
+                </article>
+                <article class="signal-card priority-2">
+                  <span class="signal-tag">Price Action</span>
+                  <h2>Lucky Pet Egg: 99 → 149 Robux</h2>
+                  <p>
+                    Strong store conversion means the egg probably feels underpriced to
+                    players who already want it.
+                  </p>
+                </article>
+                <article class="signal-card priority-3">
+                  <span class="signal-tag">Patch</span>
+                  <h2>Weekend crate hunt entry steps: 3 → 2</h2>
+                  <p>
+                    Trim the event setup so more players hit the first reward loop
+                    before they bounce out.
+                  </p>
+                </article>
+              </div>
+              <div class="hero-image-frame">
+                <img
+                  class="hero-illustration"
+                  src="./assets/hero-world.svg"
+                  alt="Original blocky live game illustration with dashboard and character"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section story-section" id="story">
+          <div class="section-heading narrow">
+            <div class="eyebrow">A Studio Story</div>
+            <h2>Meet the people inside a growing Roblox studio, before and after Blocboard.</h2>
+            <p>
+              Maya is the producer. Leo handles the economy. Priya runs live ops. Ken leads
+              the studio. None of them need more charts. They need one shared plan before
+              the week gets away from them.
+            </p>
+          </div>
+          <div class="story-grid">
+            <article class="story-card">
+              <span class="story-day">Monday</span>
+              <p class="story-role">Maya, producer</p>
+              <h3>The data is everywhere, but the story is nowhere.</h3>
+              <p>
+                Maya sees DAU climbing and revenue slipping. She has files from Roblox,
+                comments in Slack, and a half-finished note from last Friday, but no clean
+                answer to what deserves the team's next hour.
+              </p>
+            </article>
+            <article class="story-card">
+              <span class="story-day">Wednesday</span>
+              <p class="story-role">Leo, economy designer</p>
+              <h3>Three offers feel wrong, but none of them are equally urgent.</h3>
+              <p>
+                Leo wants to test one price up, one price down, and kill a stale bundle.
+                He knows all three matter. What he does not know yet is which one should
+                ship first and which one can wait another week.
+              </p>
+            </article>
+            <article class="story-card">
+              <span class="story-day">Thursday</span>
+              <p class="story-role">Priya, live-ops producer</p>
+              <h3>The review call is drifting before it even starts.</h3>
+              <p>
+                Priya wants to rerun the event with fewer entry steps. Maya wants onboarding
+                fixed first. Leo wants the starter offer repriced. Blocboard pulls the leak,
+                the unfinished items from last week, and the past wins into one plan before the room turns noisy.
+              </p>
+            </article>
+            <article class="story-card story-card-highlight">
+              <span class="story-day">Friday</span>
+              <p class="story-role">Ken, studio lead</p>
+              <h3>The update ships with fewer opinions and clearer ownership.</h3>
+              <p>
+                Ken does not need another dashboard screenshot. He needs a decision. The
+                studio ships one price test, one event tweak, and one retention fix, with
+                each person already aligned on what happens next week if the metric moves.
+              </p>
+            </article>
+          </div>
+          <div class="story-outcome">
+            <div class="story-outcome-copy">
+              <span class="story-day">Two weeks later</span>
+              <h3>The room sounds different.</h3>
+              <p>
+                Maya is not chasing context across files. Leo is not arguing for three
+                tests at once. Priya is not reopening last week's debate from memory.
+                Ken is not asking for another dashboard screenshot. Blocboard has not
+                replaced Roblox's tools. It has changed how this studio makes decisions.
+              </p>
+            </div>
+            <div class="story-outcome-list">
+              <article>
+                <h4>Maya</h4>
+                <p>Walks into review with one ranked plan instead of five open tabs.</p>
+              </article>
+              <article>
+                <h4>Leo</h4>
+                <p>Ships one higher-conviction price test because the plan made the tradeoff obvious.</p>
+              </article>
+              <article>
+                <h4>Priya</h4>
+                <p>Reruns the event with a shorter entry path and keeps the unfinished items visible.</p>
+              </article>
+              <article>
+                <h4>Ken</h4>
+                <p>Gets a cleaner Friday change list and a clearer answer to what happens next week if the metrics move.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="trust-strip">
+          <div class="trust-item">
+            <span>One board</span>
+            <strong>Revenue, retention, weak spots, and open decisions in one place</strong>
+          </div>
+          <div class="trust-item">
+            <span>One task list</span>
+            <strong>Price tests, store fixes, names, and due windows</strong>
+          </div>
+          <div class="trust-item">
+            <span>One clear change list</span>
+            <strong>Ready-to-apply event and economy changes with the needed context</strong>
+          </div>
+          <div class="trust-item">
+            <span>One memory</span>
+            <strong>Past wins and open decisions still visible next week</strong>
+          </div>
+        </section>
+
+        <section class="section split-section" id="product">
+          <div class="section-heading">
+            <div class="eyebrow">What it does</div>
+            <h2>Stop opening five tabs to decide one update.</h2>
+            <p>
+              The hard part is not finding another chart. The hard part is knowing
+              what deserves the next hour from your producer, economy designer,
+              gameplay designer, or scripter before Friday hits.
+            </p>
+          </div>
+          <div class="capability-grid">
+            <article class="capability-card">
+              <h3>Pricing and Store Calls</h3>
+              <p>
+                Finds the offers that look cheap, stale, buried, or badly packaged
+                before they quietly drag down your week.
+              </p>
+            </article>
+            <article class="capability-card">
+              <h3>Player Drop-Off Calls</h3>
+              <p>
+                Surfaces where players bounce, where acquisition leaks, and where DAU
+                growth is not turning into money.
+              </p>
+            </article>
+            <article class="capability-card">
+              <h3>Event Calls</h3>
+              <p>
+                Turns event results into clear next moves so the answer is not just
+                “run another weekend event and hope.”
+              </p>
+            </article>
+            <article class="capability-card">
+              <h3>Ship List</h3>
+              <p>
+                Gives the team a real shipping list with clear names on it instead of a
+                report everyone agrees with and nobody closes.
+              </p>
+            </article>
+            <article class="capability-card">
+              <h3>What is still open</h3>
+              <p>
+                Keeps last week's approvals, deferrals, and in-flight work visible so
+                the team does not restart the same conversation every Friday.
+              </p>
+            </article>
+            <article class="capability-card">
+              <h3>Past Test History</h3>
+              <p>
+                Pulls past experiments back into the room so you keep stacking what
+                worked instead of rediscovering the same fix twice.
+              </p>
+            </article>
+            <article class="capability-card">
+              <h3>How you compare</h3>
+              <p>
+                Shows where your game is actually behind similar games, not just down
+                from last week, so the team can feel the real urgency.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section comparison-section" id="difference">
+          <div class="section-heading narrow">
+            <div class="eyebrow">Why teams still need this</div>
+            <h2>Keep Roblox's tools. Add the plan your team actually runs from.</h2>
+            <p>
+              Roblox gives you dashboards and buttons. Blocboard gives you the weekly
+              game plan that turns files, built-in actions, shipped learnings, and open
+              reviews into one clear plan.
+            </p>
+          </div>
+          <div class="comparison-grid">
+            <article class="comparison-card comparison-card-platform">
+              <span class="comparison-label">Roblox official tools</span>
+              <h3>Great for data, built-in tools, and Roblox actions</h3>
+              <ul class="comparison-list">
+                <li>Analytics Dashboard tells you what happened inside the experience.</li>
+                <li>Price Optimization helps run eligible pricing experiments.</li>
+                <li>Creator Dashboard is where teams still review and apply many changes.</li>
+                <li>Studio Assistant and Studio MCP help create or edit content faster.</li>
+              </ul>
+            </article>
+            <article class="comparison-card comparison-card-product">
+              <span class="comparison-label">Blocboard</span>
+              <h3>Great for deciding what to do next and getting it over the line</h3>
+              <ul class="comparison-list">
+                <li>Builds one weekly plan across monetization, retention, live ops, and pacing.</li>
+                <li>Links current recommendations to prior shipped experiments and measured gains.</li>
+                <li>Shows where the game is behind similar games, not just down week over week.</li>
+                <li>Creates a review list with names, risk level, due window, and what is still open from last week.</li>
+              </ul>
+            </article>
+          </div>
+          <div class="difference-strip">
+            <div class="difference-item">
+              <span>Roblox answers</span>
+              <strong>What happened and where to click inside Roblox.</strong>
+            </div>
+            <div class="difference-item">
+              <span>Blocboard answers</span>
+              <strong>What matters right now, what ships next, and what is still open.</strong>
+            </div>
+          </div>
+        </section>
+
+        <section class="section workflow-section" id="workflow">
+          <div class="section-heading narrow">
+            <div class="eyebrow">How it fits the week</div>
+            <h2>Built for the meeting where someone asks, “What are we actually shipping?”</h2>
+            <p>
+              Blocboard is designed for the moment when charts stop helping and the team
+              needs a call: what to fix, what to test, what to defer, and who owns each move.
+            </p>
+          </div>
+          <div class="workflow-compare">
+            <article class="workflow-compare-card workflow-compare-before">
+              <span class="workflow-compare-label">Before Blocboard</span>
+              <h3>The week drifts until Friday gets loud.</h3>
+              <ul class="workflow-flow">
+                <li>
+                  <strong>Monday:</strong>
+                  Maya pulls numbers. Leo screenshots the store. Priya writes notes in Slack.
+                </li>
+                <li>
+                  <strong>Tuesday:</strong>
+                  Everyone sees a different problem, so nothing gets ranked yet.
+                </li>
+                <li>
+                  <strong>Thursday:</strong>
+                  The review call starts with context sharing instead of decisions.
+                </li>
+                <li>
+                  <strong>Friday:</strong>
+                  The team ships a little of everything because nobody wants to drop their item.
+                </li>
+              </ul>
+            </article>
+            <article class="workflow-compare-card workflow-compare-after">
+              <span class="workflow-compare-label">After Blocboard</span>
+              <h3>The week narrows into one clear Friday plan.</h3>
+              <ul class="workflow-flow">
+                <li>
+                  <strong>Monday:</strong>
+                  The files go in once and the weak spots show up in one place.
+                </li>
+                <li>
+                  <strong>Tuesday:</strong>
+                  Leo sees the best pricing move. Priya sees the best event fix. Maya sees what can wait.
+                </li>
+                <li>
+                  <strong>Thursday:</strong>
+                  The review call starts with ranked calls, open items from last week, and clear names on each item.
+                </li>
+                <li>
+                  <strong>Friday:</strong>
+                  The team ships one cleaner set of changes and already knows what to watch next week.
+                </li>
+              </ul>
+            </article>
+          </div>
+          <div class="workflow-bridge">
+            <strong>Then Blocboard turns that weekly rhythm into something repeatable.</strong>
+            <span>Here is the simple loop underneath it.</span>
+          </div>
+          <div class="workflow-grid">
+            <article class="workflow-step">
+              <span>01</span>
+              <h3>Export</h3>
+              <p>Pull Creator Dashboard files, product stats, and recent event performance into CSV.</p>
+            </article>
+            <article class="workflow-step">
+              <span>02</span>
+              <h3>Diagnose</h3>
+              <p>Rank the biggest leaks, missed opportunities, and unfinished items from last week before the room gets noisy.</p>
+            </article>
+            <article class="workflow-step">
+              <span>03</span>
+              <h3>Review</h3>
+              <p>Walk into review with one plan, clear names on each change, and enough context to make decisions fast.</p>
+            </article>
+            <article class="workflow-step">
+              <span>04</span>
+              <h3>Ship</h3>
+              <p>Push changes through Creator Dashboard, internal tooling, or Studio without losing the weekly thread.</p>
+            </article>
+          </div>
+          <div class="workflow-visual">
+            <img
+              src="./assets/liveops-map.svg"
+              alt="Blocky map-style illustration connecting events, economy, and live operations"
+            />
+          </div>
+        </section>
+
+        <section class="section outputs-section" id="outputs">
+          <div class="section-heading">
+            <div class="eyebrow">What lands in your hands</div>
+            <h2>Everything your team needs before the next ship.</h2>
+          </div>
+          <div class="output-grid">
+            <article class="output-card">
+              <h3>Weekly Brief</h3>
+              <p>
+                The five-minute version your lead can scan before the meeting starts.
+              </p>
+            </article>
+            <article class="output-card">
+              <h3>Shareable Review Page</h3>
+              <p>
+                The polished share-out for review, next-week planning, and “here's the plan” moments.
+              </p>
+            </article>
+            <article class="output-card">
+              <h3>Pricing Change List</h3>
+              <p>
+                Ready-to-review revenue moves for pricing, packaging, and store cleanup.
+              </p>
+            </article>
+            <article class="output-card">
+              <h3>Event Change List</h3>
+              <p>
+                Patch-ready changes for onboarding, event entry, and return hooks.
+              </p>
+            </article>
+            <article class="output-card">
+              <h3>Review List</h3>
+              <p>
+                A real review list with names, risk, due windows, and what is still open.
+              </p>
+            </article>
+            <article class="output-card">
+              <h3>Weekly Plan</h3>
+              <p>
+                One game plan your team or tooling can pass around without losing the plot.
+              </p>
+            </article>
+            <article class="output-card">
+              <h3>Past Test History</h3>
+              <p>
+                The history view that reminds the team which fixes already earned their keep.
+              </p>
+            </article>
+            <article class="output-card">
+              <h3>Next Week Starter</h3>
+              <p>
+                A simple file that keeps next week's plan from starting cold.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section pricing-section" id="pricing">
+          <div class="section-heading narrow">
+            <div class="eyebrow">Pricing</div>
+            <h2>Simple pricing for teams that ship every week.</h2>
+            <p>
+              Every plan starts with the same core promise: clearer weekly decisions,
+              fewer dropped learnings, and a faster path from review call to the ship list.
+            </p>
+          </div>
+          <div class="pricing-grid">
+            <article class="pricing-card">
+              <div class="pricing-top">
+                <span class="price-tag">Starter</span>
+                <h3>Operator</h3>
+                <div class="price-line">
+                  <strong>$299</strong>
+                  <span>/ month</span>
+                </div>
+              </div>
+              <ul class="pricing-list">
+                <li>1 live experience</li>
+                <li>Weekly plan and ship list</li>
+                <li>Past test notes and simple game comparisons</li>
+                <li>Best for lean teams proving weekly value</li>
+              </ul>
+              <a class="button button-secondary" href="#request-demo">Start with Operator</a>
+            </article>
+
+            <article class="pricing-card pricing-card-featured">
+              <div class="pricing-top">
+                <span class="price-tag featured">Most practical</span>
+                <h3>Studio</h3>
+                <div class="price-line">
+                  <strong>$1,250</strong>
+                  <span>/ month</span>
+                </div>
+              </div>
+              <ul class="pricing-list">
+                <li>Up to 3 live experiences</li>
+                <li>Top priorities and one shared weekly plan</li>
+                <li>Keeps unfinished decisions visible next week</li>
+                <li>Best for studios already shipping every week</li>
+              </ul>
+              <a class="button button-primary" href="#request-demo">Choose Studio</a>
+            </article>
+
+            <article class="pricing-card">
+              <div class="pricing-top">
+                <span class="price-tag">Trial</span>
+                <h3>Managed Sprint</h3>
+                <div class="price-line">
+                  <strong>$3,500</strong>
+                  <span>/ 4 weeks</span>
+                </div>
+              </div>
+              <ul class="pricing-list">
+                <li>Hands-on setup and metric mapping</li>
+                <li>Weekly strategy review</li>
+                <li>Hands-on setup around your game</li>
+                <li>Best for teams that want guided help</li>
+              </ul>
+              <a class="button button-secondary" href="#request-demo">Book a Trial</a>
+            </article>
+          </div>
+          <div class="pricing-note">
+            Need something more custom? Start with `Managed Sprint`, prove the setup,
+            then roll into `Studio` once the plan becomes part of your weekly routine.
+          </div>
+        </section>
+
+        <section class="section proof-section">
+          <div class="section-heading narrow">
+            <div class="eyebrow">Why teams stick with it</div>
+            <h2>Because it helps you ship with less drift and more clarity.</h2>
+          </div>
+          <div class="proof-grid">
+            <article class="proof-card">
+              <h3>It does not pretend to do the job for you</h3>
+              <p>
+                No black-box automation, no fake “one click fixes,” and no pretending
+                your economy should be edited without a human in the loop.
+              </p>
+            </article>
+            <article class="proof-card">
+              <h3>It respects how real studios work</h3>
+              <p>
+                Producers, economy designers, and scripters get outputs they can actually review,
+                assign, and ship without translating a giant wall of advice.
+              </p>
+            </article>
+            <article class="proof-card">
+              <h3>It keeps getting more useful</h3>
+              <p>
+                Each run gets smarter because approvals, experiments, and shipped learnings
+                do not vanish at the end of the week.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section faq-section" id="faq">
+          <div class="section-heading narrow">
+            <div class="eyebrow">FAQ</div>
+            <h2>Questions a Roblox studio lead would ask.</h2>
+          </div>
+          <div class="faq-list">
+            <details open>
+              <summary>Who is this for?</summary>
+              <p>
+                Roblox studios with live experiences, weekly updates, and enough traffic
+                that pass pricing, retention, and event tuning actually move revenue.
+              </p>
+            </details>
+            <details>
+              <summary>Which Roblox genres fit best?</summary>
+              <p>
+                The best fit is any live game with repeat sessions and a
+                meaningful economy: simulators, tycoons, obbies with paid items,
+                battlers, collection events, and UGC-heavy experiences.
+              </p>
+            </details>
+            <details>
+              <summary>Why not just use Creator Dashboard, Analytics, and Price Optimization?</summary>
+              <p>
+                You should use them. Blocboard is not a replacement for Roblox's official
+                dashboards. It sits above those tools and turns files, built-in actions,
+                past experiments, and game-to-game comparisons into one weekly game plan
+                for the studio.
+              </p>
+            </details>
+            <details>
+              <summary>What can it do today?</summary>
+              <p>
+                Right now it reads CSV files, finds problems, pulls in past test results,
+                keeps track of open decisions from last week, and gives the team a
+                change list they can review. Direct Dashboard writes and Studio plugin sync are
+                still next.
+              </p>
+            </details>
+            <details>
+              <summary>Does this replace a product manager or monetization lead?</summary>
+              <p>
+                No. It shortens the weekly review work so the human lead
+                can spend more time shipping and less time hunting for weak spots.
+              </p>
+            </details>
+          </div>
+        </section>
+
+        <section class="section cta-section" id="request-demo">
+          <div class="cta-panel">
+            <div>
+              <div class="eyebrow">Ready to stop running live ops from memory?</div>
+              <h2>Book a private trial or join the waitlist.</h2>
+              <p>
+                The repo already includes a working first version, demo inputs, generated outputs,
+                and tests. Use this section to turn interest into a real conversation
+                with studios who want clearer weekly decisions, faster reviews, and
+                fewer lost learnings between ships.
+              </p>
+              <ul class="hero-points cta-points">
+                <li>Private trial for studios with one live game and a weekly update schedule.</li>
+                <li>Waitlist for teams who want updates as the Studio integration matures.</li>
+                <li>Static-page friendly: this form generates a ready-to-send inquiry draft.</li>
+              </ul>
+            </div>
+            <div class="waitlist-panel">
+              <form class="lead-form" id="lead-form">
+                <div class="form-grid">
+                  <label class="form-field">
+                    <span>Name</span>
+                    <input type="text" name="name" placeholder="Chenxi" />
+                  </label>
+                  <label class="form-field">
+                    <span>Studio</span>
+                    <input type="text" name="studio" placeholder="Galaxy Games" />
+                  </label>
+                  <label class="form-field">
+                    <span>Email</span>
+                    <input type="email" name="email" placeholder="team@studio.com" />
+                  </label>
+                  <label class="form-field">
+                    <span>Monthly active players</span>
+                    <select name="players">
+                      <option value="Under 100k">Under 100k</option>
+                      <option value="100k to 500k">100k to 500k</option>
+                      <option value="500k to 2m">500k to 2m</option>
+                      <option value="2m+">2m+</option>
+                    </select>
+                  </label>
+                  <label class="form-field form-field-wide">
+                    <span>What hurts most right now?</span>
+                    <textarea
+                      name="pain"
+                      rows="4"
+                      placeholder="Pricing drift, low D1, messy Friday reviews, event pacing, or too many open decisions..."
+                    ></textarea>
+                  </label>
+                </div>
+                <div class="cta-actions">
+                  <button class="button button-primary" type="submit" data-mode="trial">Request private trial</button>
+                  <button class="button button-secondary" type="button" data-copy-request>Copy inquiry</button>
+                </div>
+                <div class="form-note">
+                  This static version opens a prefilled email draft and can be wired to
+                  Formspree, HubSpot, Resend, or your CRM later.
+                </div>
+                <div class="form-status" data-form-status aria-live="polite"></div>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <section class="section final-actions-section" id="final-cta">
+          <div class="final-actions-row">
+            <a class="button button-primary" href="../README.md">Open the setup guide</a>
+            <a class="button button-secondary" href="#pricing">Pick a plan</a>
+            <a class="button button-secondary" href="../docs/input_schema.md">See the input schema</a>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script>
+      (function () {
+        const form = document.getElementById("lead-form");
+        if (!form) return;
+
+        const statusEl = form.querySelector("[data-form-status]");
+        const copyButton = form.querySelector("[data-copy-request]");
+
+        function buildMessage() {
+          const data = new FormData(form);
+          const name = (data.get("name") || "").toString().trim();
+          const studio = (data.get("studio") || "").toString().trim();
+          const email = (data.get("email") || "").toString().trim();
+          const players = (data.get("players") || "").toString().trim();
+          const pain = (data.get("pain") || "").toString().trim();
+
+          const subject = studio
+            ? `Blocboard trial request - ${studio}`
+            : "Blocboard trial request";
+
+          const bodyLines = [
+            "Blocboard inquiry",
+            "",
+            `Name: ${name || "-"}`,
+            `Studio: ${studio || "-"}`,
+            `Email: ${email || "-"}`,
+            `Monthly active players: ${players || "-"}`,
+            "",
+            "Biggest current blocker:",
+            pain || "-",
+          ];
+
+          return {
+            subject,
+            body: bodyLines.join("\n"),
+          };
+        }
+
+        form.addEventListener("submit", function (event) {
+          event.preventDefault();
+          const message = buildMessage();
+          window.location.href =
+            `mailto:?subject=${encodeURIComponent(message.subject)}&body=${encodeURIComponent(message.body)}`;
+          if (statusEl) {
+            statusEl.textContent = "Email draft opened. Connect this form to your CRM before launch.";
+          }
+        });
+
+        if (copyButton) {
+          copyButton.addEventListener("click", async function () {
+            const message = buildMessage();
+            const payload = `${message.subject}\n\n${message.body}`;
+            try {
+              await navigator.clipboard.writeText(payload);
+              if (statusEl) {
+                statusEl.textContent = "Inquiry copied. Paste it into email, Slack, Notion, or your CRM.";
+              }
+            } catch (error) {
+              if (statusEl) {
+                statusEl.textContent = "Clipboard access was blocked. Use the trial button to open an email draft instead.";
+              }
+            }
+          });
+        }
+      })();
+    </script>
+  </body>
+</html>
