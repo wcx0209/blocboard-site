@@ -709,6 +709,27 @@ body::before {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(247, 251, 255, 0.96));
 }
 
+.story-persona {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.story-avatar {
+  width: 72px;
+  height: 72px;
+  flex: 0 0 auto;
+  border-radius: 22px;
+  border: 1px solid rgba(16, 35, 62, 0.08);
+  box-shadow: 0 12px 28px rgba(16, 35, 62, 0.1);
+  background: white;
+}
+
+.story-persona-meta {
+  display: grid;
+  gap: 8px;
+}
+
 .story-card-highlight {
   background: linear-gradient(180deg, rgba(13, 94, 255, 0.08), rgba(255, 255, 255, 0.98));
 }
@@ -728,7 +749,7 @@ body::before {
 }
 
 .story-role {
-  margin: 12px 0 0;
+  margin: 0;
   color: var(--accent-strong);
   font-size: 14px;
   font-weight: 800;
@@ -792,8 +813,24 @@ body::before {
   background: rgba(255, 255, 255, 0.82);
 }
 
+.story-outcome-persona {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.story-outcome-avatar {
+  width: 46px;
+  height: 46px;
+  flex: 0 0 auto;
+  border-radius: 14px;
+  border: 1px solid rgba(16, 35, 62, 0.08);
+  background: white;
+}
+
 .story-outcome-list h4 {
-  margin: 0 0 8px;
+  margin: 0;
   font-size: 18px;
   letter-spacing: -0.02em;
 }
@@ -1443,6 +1480,15 @@ body::before {
 
   .brand-wordmark {
     width: 158px;
+  }
+
+  .story-persona {
+    align-items: flex-start;
+  }
+
+  .story-avatar {
+    width: 64px;
+    height: 64px;
   }
 
   .hero h1 {
